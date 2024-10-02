@@ -16,6 +16,7 @@ export default function CountryList() {
         {countries.map((country, index) => (
           <li key={index}>
             <Link href={`/countrylist/${country.name.toLowerCase()}`}>
+          
               {country.name}
             </Link>
             
